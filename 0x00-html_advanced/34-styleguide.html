@@ -118,11 +118,11 @@
         </div>
         <div>
           <pre>
-                    <code>
-                        <h2>My title</h2>
-                        <p>Proin lacus turpis, feugiat sit amet sollicitudin non, volutpat in libero. Aenean hendrerit ultrices nulla ac lobortis. Vestibulum consectetur nibh vel ante rhoncus faucibus.</p>
-                    </code>
-                </pre>
+            <code>
+              <h2>My title</h2>
+              <p>Proin lacus turpis, feugiat sit amet sollicitudin non, volutpat in libero. Aenean hendrerit ultrices nulla ac lobortis. Vestibulum consectetur nibh vel ante rhoncus faucibus.</p>
+            </code>
+          </pre>
         </div>
         <div>
           <p>
@@ -140,29 +140,35 @@
           <h2>Table</h2>
         </header>
         <table>
-          <tr>
-            <th colspan="3" align="center">Star Wars Trilogy Data</th>
-          </tr>
-          <tr>
-            <th scope="col">Title</th>
-            <th scope="col">Director</th>
-            <th scope="col">Release Date</th>
-          </tr>
-          <tr>
-            <th scope="row">Star Wars: Episode IV - A New Hope</th>
-            <td>George Lucas</td>
-            <td>May 25th, 1977</td>
-          </tr>
-          <tr>
-            <th scope="col">Star Wars: Episode V - The Empire Strikes Back</th>
-            <td>Irvin Kershner</td>
-            <td>May 21st, 1980</td>
-          </tr>
-          <tr>
-            <th scope="col">Star Wars: Episode VI - Return of the Jedi</th>
-            <td>Richard Marquand</td>
-            <td>May 25th, 1983</td>
-          </tr>
+          <caption>
+            Star Wars Trilogy Data
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Title</th>
+              <th scope="col">Director</th>
+              <th scope="col">Release Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Star Wars: Episode IV - A New Hope</th>
+              <td>George Lucas</td>
+              <td>May 25th, 1977</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Star Wars: Episode V - The Empire Strikes Back
+              </th>
+              <td>Irvin Kershner</td>
+              <td>May 21st, 1980</td>
+            </tr>
+            <tr>
+              <th scope="row">Star Wars: Episode VI - Return of the Jedi</th>
+              <td>Richard Marquand</td>
+              <td>May 25th, 1983</td>
+            </tr>
+          </tbody>
         </table>
       </section>
       <!-- Details -->
@@ -174,16 +180,20 @@
           <h3>Default</h3>
           <details>
             <summary>Show/Hide me</summary>
-            Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas.
+            <p>
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas.
+            </p>
           </details>
         </div>
         <div>
           <h3>Open</h3>
           <details open>
             <summary>Always open</summary>
-            Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas.
+            <p>
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas.
+            </p>
           </details>
         </div>
       </section>
