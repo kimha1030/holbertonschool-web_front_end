@@ -312,17 +312,18 @@ h6 {
 
 .row > ul {
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .col-1-3 {
-  width: 33.33%;
+  width: 0.3333em;
   float: left;
   padding: 0.5rem;
 }
 
 .col-1-2 {
-  width: 50%;
+  width: 0.5em;
   float: left;
   padding: 0.5rem;
 }
@@ -332,6 +333,7 @@ h6 {
 }
 
 .footer-copyright {
+  margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
