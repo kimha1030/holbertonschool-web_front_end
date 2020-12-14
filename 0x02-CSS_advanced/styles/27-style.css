@@ -338,9 +338,7 @@ h6 {
 }
 
 .section-hero {
-  background-size: 2rem;
-  width: 90rem;
-  height: auto;
+  background-size: 90rem auto;
 }
 
 .section-hero .section-title {
