@@ -359,7 +359,7 @@ ul.row {
 }
 
 .social-link {
-  display: block;
+  box-sizing: content-box;
 }
 
 .social-link > svg {
