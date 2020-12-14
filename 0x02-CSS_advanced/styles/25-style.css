@@ -206,13 +206,6 @@ html {
   font-size: 62.5%;
 }
 
-[data-section-theme="dark"] {
-  --text-color: var(--color-white);
-  --section-title-color: var(--color-white);
-  background-color: var(--color-black);
-  --button-color: var(--color-white);
-}
-
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
@@ -251,6 +244,13 @@ a:active {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background-color: var(--button-hover-background);
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
+  --button-color: var(--color-white);
 }
 
 .visually-hidden {
