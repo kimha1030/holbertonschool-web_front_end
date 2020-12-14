@@ -241,10 +241,10 @@ ul.row {
   list-style: none;
 }
 
-.row:after {
+.row::after {
   content: none;
   display: table;
-  float: none;
+  float: unset;
 }
 
 .col-1-3 {
