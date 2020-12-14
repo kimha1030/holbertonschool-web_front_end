@@ -312,6 +312,7 @@ h6 {
 
 ul .row {
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -332,6 +333,7 @@ ul .row {
 }
 
 .footer-copyright {
+  margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
