@@ -310,9 +310,10 @@ h6 {
   color: var(--nav-item-link-hover);
 }
 
-.row > ul {
+ul .row {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .col-1-3 {
