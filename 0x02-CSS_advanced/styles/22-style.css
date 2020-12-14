@@ -197,7 +197,7 @@ html {
   font-size: 62.5%;
 }
 
-header[data-section-theme="dark"] {
+[data-section-theme="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
