@@ -227,6 +227,16 @@ a:active {
   display: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
 .card-category {
   color: var(--color-primary);
 }
@@ -287,16 +297,6 @@ ul .row {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
 }
 
 .navbar-menu {
