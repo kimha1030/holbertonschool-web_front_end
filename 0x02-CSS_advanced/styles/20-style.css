@@ -242,9 +242,9 @@ ul.row {
 }
 
 .row::after {
-  content: none;
+  content: "";
   display: table;
-  float: unset;
+  clear: both;
 }
 
 .col-1-3 {
