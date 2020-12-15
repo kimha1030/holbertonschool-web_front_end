@@ -275,8 +275,7 @@ a:active {
   text-decoration: var(--button-hover-text-decoration);
   background-color: var(--button-hover-background);
   transition-duration: var(--transition-duration);
-  transition-property: color;
-  transition-property: background-color;
+  transition-property: color background-color;
 }
 
 .visually-hidden {
@@ -338,6 +337,11 @@ a:active {
   overflow: hidden;
 }
 
+.card-work:hover .card-image {
+  transform: scale(1.2);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+
 .card-work:hover .card-outer {
   transform: scale(0.95);
 }
@@ -347,11 +351,6 @@ a:active {
   width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-}
-
-.card-work:hover .card-image {
-  transform: scale(1.2);
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
