@@ -430,7 +430,7 @@ ul.row {
   color: var(--color-white);
 }
 
-.nav .nav-link:before {
+.nav .nav-link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -440,7 +440,7 @@ ul.row {
   height: 0.2rem;
 }
 
-.nav .nav-link:before .nav-item:hover {
+.nav .nav-link::before .nav-item:hover {
   background-color: var(--color-primary);
   width: 100%;
 }
