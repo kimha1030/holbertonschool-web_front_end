@@ -1,0 +1,9 @@
+/* Nested hover */
+$col_button: #ff0000;
+$col_but_hover: #00ff00;
+button {
+  color: $col_button;
+  &:hover {
+    color: $col_but_hover;
+  }
+}
