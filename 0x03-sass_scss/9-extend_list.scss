@@ -1,14 +1,15 @@
-/* Extended */
+/* Extend_list */
+
 .info {
   font-size: 12px;
 }
 
-.sucess {
-  color: #00ff00;
+.success {
   @extend .info;
+  color: #00ff00;
 }
 
 .warning {
-  color: #ff0000;
   @extend .info;
+  color: #ff0000;
 }
