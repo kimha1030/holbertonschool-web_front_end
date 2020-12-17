@@ -1,11 +1,13 @@
 /* Colors */
+$col: #3d3d3d;
+$back_color: #6d6d6d;
 body {
-  color: #3d3d3d;
-  background-color: #6d6d6d;
+  color: $col;
+  background-color: $back_color;
 }
 p {
-  color: #3d3d3d;
+  color: $col;
 }
 h2 {
-  background-color: #6d6d6d;
+  background-color: $back_color;
 }
