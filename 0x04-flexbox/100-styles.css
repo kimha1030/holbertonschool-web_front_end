@@ -770,7 +770,7 @@ ul.row {
   content: "";
 }
 
-img.post {
+.post img {
   width: 100%;
   height: auto;
 }
