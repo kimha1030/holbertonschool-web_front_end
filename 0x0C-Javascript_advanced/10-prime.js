@@ -1,5 +1,3 @@
-#!/usr/bin/node
-
 function countPrimeNumbers() {
   let prime_array = [];
   for (let i = 2; i <= 100; i++) {

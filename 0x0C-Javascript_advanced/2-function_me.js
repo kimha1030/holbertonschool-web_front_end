@@ -1,5 +1,3 @@
-#!/usr/bin/node
-
 function welcomeMessage(fullName) {
   return function alertFunction() {
     alert("Welcome " + fullName);

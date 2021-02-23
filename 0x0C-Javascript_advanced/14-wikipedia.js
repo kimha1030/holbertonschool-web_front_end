@@ -1,5 +1,3 @@
-#!/usr/bin/node
-
 function createElement(data) {
   let newParagraph = document.createElement("p");
   let pText = document.createTextNode(data);

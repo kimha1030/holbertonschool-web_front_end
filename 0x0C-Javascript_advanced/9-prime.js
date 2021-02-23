@@ -1,5 +1,3 @@
-#!/usr/bin/node
-
 let t0 = performance.now();
 function countPrimeNumbers() {
   let prime_array = [];

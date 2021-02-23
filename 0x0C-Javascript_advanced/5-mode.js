@@ -1,5 +1,3 @@
-#!/usr/bin/node
-
 function changeMode(
   size,
   weight = "",
