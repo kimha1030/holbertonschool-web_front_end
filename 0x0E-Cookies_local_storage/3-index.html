@@ -12,9 +12,6 @@
       <input type="text" id="email" placeholder="Email" />
       <button onclick="setCookies()">Log me in</button>
     </div>
-    <br />
-    <h1>Cookies:</h1>
-    <button onclick="showCookies()">Show the cookies</button>
     <script>
       function setCookies() {
         let firstname = document.querySelector("#firstname").value;
@@ -26,6 +23,7 @@
         let expire = new Date();
         expire.setTime(today.getTime() + 3600000 * 24 * daysExpire);
         console.log(expire); //Show the date of expiration
+        showWelcomeMessageOrForm();
       }
 
       function showCookies() {
@@ -50,11 +48,10 @@
 
       function showForm() {
         let msg = document.querySelector("#welcomeId");
-        document.querySelector("#login-form").style.display = "block";
         if (msg) {
           msg.remove();
         }
-        showForm();
+        document.querySelector("#login-form").style.display = "block";
       }
 
       function hideForm() {
