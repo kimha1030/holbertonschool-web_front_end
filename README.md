@@ -32,14 +32,15 @@
 - [Forms](./0x05-form)
 - [Responsive Design](./0x06-responsive_design)
 - [Accessibility](./0x07-accessibility)
-- [Implement a design from scratch](./holberton-headphones)
+- [Implement a design from scratch](https://github.com/kimha1030/holberton-headphones)
 - [Designer language research](https://www.linkedin.com/pulse/designer-language-research-kimberly-hinostroza)
 - [Bootstrap](./0x0A-Bootstrap)
-- [Implement a design with Bootstrap](./holberton-smiling-school)
+- [Implement a design with Bootstrap](https://github.com/kimha1030/holberton-smiling-school)
 - [Javascript advanced](./0x0C-Javascript_advanced)
-- [Cookies & local storage](./0x0E-Cookies_local_storage)
 - [jQuery advanced](./0x0D-JQuery_advanced)
-- [Build a web app in JavaScript](./holberton-smiling-school-javascript)
+- [Cookies & local storage](./0x0E-Cookies_local_storage)
+- [Optional project: Fun with CSS](https://github.com/kimha1030/Fun-with-CSS)
+- [Build a web app in JavaScript](https://github.com/kimha1030/holberton-smiling-school-javascript)
 
 ---
 
